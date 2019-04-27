@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cd frontend/gatsby-app/ && gatsby develop --port 80",
-    "heroku-postbuild": "cd frontend/gatsby-app/ && gatsby build",
+    "start": "cd frontend/react-app/ && webpack-dev-server --open --mode development --host 0.0.0.0 --port 80",
+    "heroku-postbuild": "cd frontend/react-app/ && webpack --mode development",
 
-    "start-gat": "frontend/gatsby-app/ && gatsby develop",
-    "start-web": "",
+    "start-gat": "cd frontend/gatsby-app/ && gatsby develop --port 80",
+    "heroku-postbuild-gatsby": "cd frontend/gatsby-app/ && gatsby build",
+
+    "start-web": "cd frontend/react-app/ && webpack-dev-server --open --mode development --host 0.0.0.0 --port 80",
+    "heroku-postbuild-webpack": "webpack --mode development",
 
     "webpack-start": "webpack-dev-server --open --mode development",
     "webpack-build": "webpack --mode development",
