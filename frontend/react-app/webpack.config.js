@@ -70,7 +70,7 @@ module.exports = {
         new compressionPlugin(),
         new htmlWebPackPlugin({
             template: "./src/deploy/index.html",
-            filename: "./index.html"
+            filename: "index.html"
         })
     ]
 };
