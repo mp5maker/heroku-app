@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cd frontend/gatsby-app/ && gatsby develop -p $PORT -H 0.0.0.0",
+    "start": "cd frontend/gatsby-app/ && gatsby build && gatsby develop -p $PORT -H 0.0.0.0",
 
     "start-gat": "frontend/gatsby-app/ && gatsby develop -p $PORT -H 0.0.0.0",
     "start-web": "",
