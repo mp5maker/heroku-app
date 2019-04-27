@@ -1,0 +1,30 @@
+{
+  "name": "heroku-django-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webpack-start": "webpack-dev-server --open --mode development",
+    "webpack-build": "webpack --mode development",
+    "webpack-watch": "webpack -d --watch",
+
+    "gatsby-build": "gatsby build",
+    "gatsby-develop": "gatsby develop",
+    "gatsby-format": "prettier --write src/**/*.{js,jsx}",
+    "gatsby-start": "npm run develop",
+    "gatsby-serve": "gatsby serve",
+
+    "json-server": "json-server --watch backend/users.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mp5maker/heroku-django-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mp5maker/heroku-django-react/issues"
+  },
+  "homepage": "https://github.com/mp5maker/heroku-django-react#readme"
+}
