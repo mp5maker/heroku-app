@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "gatsby develop -p $PORT -H 0.0.0.0",
-    "start-back": "",
+    "start": "cd frontend/gatsby-app/ && gatsby develop -p $PORT -H 0.0.0.0",
+
+    "start-gat": "frontend/gatsby-app/ && gatsby develop -p $PORT -H 0.0.0.0",
+    "start-web": "",
 
     "webpack-start": "webpack-dev-server --open --mode development",
     "webpack-build": "webpack --mode development",
