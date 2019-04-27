@@ -32,5 +32,8 @@
   "bugs": {
     "url": "https://github.com/mp5maker/heroku-django-react/issues"
   },
-  "homepage": "https://github.com/mp5maker/heroku-django-react#readme"
+  "homepage": "https://github.com/mp5maker/heroku-django-react#readme",
+  "engines": {
+    "node": "10.3.0"
+  }
 }
