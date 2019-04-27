@@ -103,6 +103,6 @@
   },
   "homepage": "https://github.com/mp5maker/heroku-django-react#readme",
   "engines": {
-    "node": "10.3.0"
+    "node": "8.11.4"
   }
 }
