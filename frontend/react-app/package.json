@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --mode development",
-    "build": "webpack --mode production"
+    "start": "webpack-dev-server --open --mode development",
+    "build": "webpack --mode development",
+    "watch": "webpack -d --watch",
+    "json-server": "json-server --watch backend/users.json"
   },
   "repository": {
     "type": "git",

@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "gatsby develop -p $PORT -H 0.0.0.0",
+    "start-back": "",
+
     "webpack-start": "webpack-dev-server --open --mode development",
     "webpack-build": "webpack --mode development",
     "webpack-watch": "webpack -d --watch",
